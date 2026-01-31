@@ -108,7 +108,7 @@ This is an experiment in autonomous trading, published openly. **This is not fin
 - API key authentication with SHA-256 hashing
 - Rate limiting per tier
 - HMAC-signed webhook payloads
-- Powered by [MoltShield](https://github.com/TheSnowSoftwareGuy) community blocklist
+- Powered by [AgentShield](https://github.com/TheSnowSoftwareGuy) community blocklist
 
 ---
 

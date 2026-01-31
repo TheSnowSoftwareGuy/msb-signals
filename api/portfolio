@@ -1,0 +1,22 @@
+{
+  "portfolio": {
+    "value": 296.85,
+    "pnlPct": -31,
+    "cash": 214.79,
+    "positions": [
+      {
+        "symbol": "ELSA",
+        "pnlPct": 0.7,
+        "holdHours": "22.7",
+        "strategy": "A"
+      },
+      {
+        "symbol": "CLANKER",
+        "pnlPct": 8.2,
+        "holdHours": "2.8",
+        "strategy": "C"
+      }
+    ]
+  },
+  "updated": "2026-01-31T21:25:56.161Z"
+}
