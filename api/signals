@@ -1,76 +1,9 @@
 {
   "signals": [
     {
-      "type": "TRAILING_STOP",
-      "symbol": "MOLT",
-      "timestamp": "2026-01-30T23:42:56.801Z",
-      "pnlPct": -13.43
-    },
-    {
-      "type": "TRAILING_STOP",
-      "symbol": "MOLT",
-      "timestamp": "2026-01-30T23:43:26.776Z",
-      "pnlPct": -13.93
-    },
-    {
-      "type": "TRAILING_STOP",
-      "symbol": "MOLT",
-      "timestamp": "2026-01-30T23:43:56.767Z",
-      "pnlPct": -13.93
-    },
-    {
-      "type": "SAFETY_REJECT",
-      "symbol": "USOR OIL",
-      "timestamp": "2026-01-31T00:58:59.169Z"
-    },
-    {
-      "type": "NEW_BUY",
+      "type": "SELL_IMPOSSIBLE",
       "symbol": "DRB",
-      "timestamp": "2026-01-31T01:29:00.395Z",
-      "strategy": "C",
-      "reason": "V/L 0.9x, Liq $1100K, ATR 57.8%, Conv 1.0x"
-    },
-    {
-      "type": "TAKE_PROFIT_PARTIAL",
-      "symbol": "DRB",
-      "timestamp": "2026-01-31T04:15:28.542Z",
-      "pnlPct": 23.7
-    },
-    {
-      "type": "TRAILING_STOP",
-      "symbol": "BNKR",
-      "timestamp": "2026-01-31T04:52:57.966Z",
-      "pnlPct": 10.78
-    },
-    {
-      "type": "TRAILING_STOP",
-      "symbol": "BNKR",
-      "timestamp": "2026-01-31T04:53:27.954Z",
-      "pnlPct": 10.78
-    },
-    {
-      "type": "TRAILING_STOP",
-      "symbol": "BNKR",
-      "timestamp": "2026-01-31T04:53:58.001Z",
-      "pnlPct": 9.67
-    },
-    {
-      "type": "TRAILING_STOP",
-      "symbol": "BNKR",
-      "timestamp": "2026-01-31T04:54:27.952Z",
-      "pnlPct": 9.67
-    },
-    {
-      "type": "STOP_LOSS",
-      "symbol": "DRB",
-      "timestamp": "2026-01-31T14:34:51.911Z",
-      "pnlPct": -10.52
-    },
-    {
-      "type": "STOP_LOSS",
-      "symbol": "DRB",
-      "timestamp": "2026-01-31T14:35:21.824Z",
-      "pnlPct": -10.52
+      "timestamp": "2026-01-31T14:35:38.691Z"
     },
     {
       "type": "STOP_LOSS",
@@ -85,6 +18,22 @@
       "pnlPct": -10.37
     },
     {
+      "type": "SELL_IMPOSSIBLE",
+      "symbol": "DRB",
+      "timestamp": "2026-01-31T14:36:22.422Z"
+    },
+    {
+      "type": "SELL_IMPOSSIBLE",
+      "symbol": "DRB",
+      "timestamp": "2026-01-31T14:36:37.879Z"
+    },
+    {
+      "type": "SELL_IMPOSSIBLE",
+      "symbol": "DRB",
+      "timestamp": "2026-01-31T14:36:51.868Z",
+      "pnlPct": -10.27
+    },
+    {
       "type": "SAFETY_REJECT",
       "symbol": "MOLT",
       "timestamp": "2026-01-31T14:48:23.412Z"
@@ -93,8 +42,7 @@
       "type": "NEW_BUY",
       "symbol": "BNKR",
       "timestamp": "2026-01-31T14:53:25.052Z",
-      "strategy": "A",
-      "reason": "V/L 4.7x, Liq $2726K, ATR 24.5%, Conv 1.0x, Whale +0"
+      "strategy": "A"
     },
     {
       "type": "SAFETY_REJECT",
@@ -113,10 +61,20 @@
       "pnlPct": -16.76
     },
     {
+      "type": "SELL_IMPOSSIBLE",
+      "symbol": "BNKR",
+      "timestamp": "2026-01-31T17:30:19.886Z"
+    },
+    {
       "type": "STOP_LOSS",
       "symbol": "BNKR",
       "timestamp": "2026-01-31T17:30:32.548Z",
       "pnlPct": -16.76
+    },
+    {
+      "type": "SELL_IMPOSSIBLE",
+      "symbol": "BNKR",
+      "timestamp": "2026-01-31T17:30:48.311Z"
     },
     {
       "type": "STOP_LOSS",
@@ -125,11 +83,21 @@
       "pnlPct": -16.52
     },
     {
+      "type": "SELL_IMPOSSIBLE",
+      "symbol": "BNKR",
+      "timestamp": "2026-01-31T17:31:14.601Z"
+    },
+    {
+      "type": "SELL_IMPOSSIBLE",
+      "symbol": "BNKR",
+      "timestamp": "2026-01-31T17:31:32.607Z",
+      "pnlPct": -16.52
+    },
+    {
       "type": "NEW_BUY",
       "symbol": "CLANKER",
       "timestamp": "2026-01-31T18:32:16.369Z",
-      "strategy": "C",
-      "reason": "V/L 2.2x, Liq $3404K, ATR 18.6%, Conv 1.0x, Whale +0"
+      "strategy": "C"
     },
     {
       "type": "SAFETY_REJECT",
@@ -140,17 +108,40 @@
       "type": "NEW_BUY",
       "symbol": "REPPO",
       "timestamp": "2026-01-31T21:32:16.780Z",
-      "strategy": "C",
-      "reason": "V/L 1.0x, Liq $591K, ATR 51.7%, Conv 1.0x, Whale +0"
+      "strategy": "C"
     },
     {
       "type": "TAKE_PROFIT_PARTIAL",
       "symbol": "CLANKER",
       "timestamp": "2026-01-31T22:01:43.644Z",
       "pnlPct": 20.37
+    },
+    {
+      "type": "TIME_STOP",
+      "symbol": "ELSA",
+      "timestamp": "2026-01-31T22:43:43.454Z",
+      "pnlPct": 5.72
+    },
+    {
+      "type": "TIME_STOP",
+      "symbol": "ELSA",
+      "timestamp": "2026-01-31T22:44:13.398Z",
+      "pnlPct": 5.72
+    },
+    {
+      "type": "TIME_STOP",
+      "symbol": "ELSA",
+      "timestamp": "2026-01-31T22:44:43.420Z",
+      "pnlPct": 5.72
+    },
+    {
+      "type": "SELL_IMPOSSIBLE",
+      "symbol": "ELSA",
+      "timestamp": "2026-01-31T22:45:13.387Z",
+      "pnlPct": 5.72
     }
   ],
   "count": 25,
-  "updated": "2026-01-31T22:24:37.697Z",
+  "updated": "2026-01-31T23:25:43.666Z",
   "delay": "1hr (free tier)"
 }

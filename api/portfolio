@@ -1,31 +1,24 @@
 {
   "portfolio": {
-    "value": 320.52,
-    "pnlPct": -25.5,
-    "cash": 219.57,
+    "value": 323.64,
+    "pnlPct": -24.7,
+    "cash": 252.51,
     "positions": [
       {
-        "symbol": "ELSA",
-        "pnlPct": 4.6,
-        "holdHours": "23.7",
-        "strategy": "A",
-        "tookPartial": false
-      },
-      {
         "symbol": "CLANKER",
-        "pnlPct": 25.7,
-        "holdHours": "3.8",
+        "pnlPct": 33.2,
+        "holdHours": "4.8",
         "strategy": "C",
         "tookPartial": true
       },
       {
         "symbol": "REPPO",
-        "pnlPct": 3.1,
-        "holdHours": "0.9",
+        "pnlPct": 7.2,
+        "holdHours": "1.9",
         "strategy": "C",
         "tookPartial": false
       }
     ]
   },
-  "updated": "2026-01-31T22:24:37.698Z"
+  "updated": "2026-01-31T23:25:43.668Z"
 }
