@@ -98,6 +98,41 @@ const server = http.createServer((req, res) => {
     return json(res, { tier, count: signals.length, delayed: tierConfig.delayMs > 0, signals });
   }
 
+  if (pathname === '/api/stats') {
+    const signals = loadJSON(path.join(DATA_DIR, 'alerts.json'), []);
+    const buys = signals.filter(s => s.type === 'NEW_BUY');
+    const stops = signals.filter(s => s.type === 'STOP_LOSS');
+    const profits = signals.filter(s => s.type === 'TAKE_PROFIT_PARTIAL');
+    const rejects = signals.filter(s => s.type === 'SAFETY_REJECT');
+    const deadPositions = signals.filter(s => s.type === 'SELL_IMPOSSIBLE' && s.attempts);
+
+    const profitPnls = profits.map(s => s.pnlPct || 0);
+    const stopPnls = stops.map(s => s.pnlPct || 0);
+    const allExitPnls = [...profitPnls, ...stopPnls];
+
+    const avg = arr => arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : 0;
+    const winRate = allExitPnls.length ? allExitPnls.filter(p => p > 0).length / allExitPnls.length * 100 : 0;
+
+    const d = loadJSON(path.join(DATA_DIR, 'dashboard.json'), {});
+
+    return json(res, {
+      totalSignals: signals.length,
+      totalBuys: buys.length,
+      totalStopLosses: stops.length,
+      totalTakeProfits: profits.length,
+      totalSafetyRejects: rejects.length,
+      deadPositions: deadPositions.length,
+      winRate: Math.round(winRate * 10) / 10,
+      avgWinPct: Math.round(avg(profitPnls) * 10) / 10,
+      avgLossPct: Math.round(avg(stopPnls) * 10) / 10,
+      portfolioValue: d.portfolioValue ? Math.round(d.portfolioValue * 100) / 100 : null,
+      portfolioPnlPct: d.portfolioPnlPct ? Math.round(d.portfolioPnlPct * 100) / 100 : null,
+      activePositions: (d.positions || []).length,
+      since: signals.length ? signals[0].timestamp : null,
+      uniqueTokensTraded: [...new Set(buys.map(b => b.symbol))].length
+    });
+  }
+
   if (pathname === '/api/portfolio') {
     const d = loadJSON(path.join(DATA_DIR, 'dashboard.json'), null);
     if (!d) return json(res, { error: 'Unavailable' }, 503);
