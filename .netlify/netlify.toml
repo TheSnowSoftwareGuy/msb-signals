@@ -1,0 +1,49 @@
+functionsDirectory = "/Users/patrickhull/.openclaw/workspace/msb-signals/netlify/functions"
+functionsDirectoryOrigin = "config-v1"
+headersOrigin = "config"
+redirectsOrigin = "config"
+plugins = []
+
+[build]
+publish = "/Users/patrickhull/.openclaw/workspace/msb-signals/public"
+publishOrigin = "config"
+base = "/Users/patrickhull/.openclaw/workspace/msb-signals"
+functions = "/Users/patrickhull/.openclaw/workspace/msb-signals/netlify/functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[functions]
+
+[functions."*"]
+
+[[headers]]
+for = "/*"
+
+[headers.values]
+Access-Control-Allow-Origin = "*"
+Access-Control-Allow-Headers = "Authorization, Content-Type"
+Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/:splat"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]

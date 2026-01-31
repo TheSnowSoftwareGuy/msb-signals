@@ -148,7 +148,9 @@ curl -H <span class="string">"Authorization: Bearer YOUR_API_KEY"</span> \
 
   <script>
     const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
-    const API_BASE = isLocal ? `http://127.0.0.1:3849/api` : '/api';
+    const API_BASE = isLocal ? `http://127.0.0.1:3849/api`
+      : location.hostname.includes('netlify') ? '/api'
+      : 'https://msb-signals.netlify.app/api'; // GitHub Pages fallback
 
     async function loadPortfolio() {
       try {
