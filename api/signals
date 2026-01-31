@@ -1,13 +1,27 @@
 {
   "signals": [
     {
+      "type": "TRAILING_STOP",
+      "symbol": "MOLT",
+      "timestamp": "2026-01-30T23:42:56.801Z",
+      "pnlPct": -13.43
+    },
+    {
+      "type": "TRAILING_STOP",
+      "symbol": "MOLT",
+      "timestamp": "2026-01-30T23:43:26.776Z",
+      "pnlPct": -13.93
+    },
+    {
+      "type": "TRAILING_STOP",
+      "symbol": "MOLT",
+      "timestamp": "2026-01-30T23:43:56.767Z",
+      "pnlPct": -13.93
+    },
+    {
       "type": "SAFETY_REJECT",
       "symbol": "USOR OIL",
-      "timestamp": "2026-01-31T00:58:59.169Z",
-      "reasons": [
-        "LOW_LP_HOLDERS(4<5)",
-        "HIGH_SELL_RATIO(1.66x>1.5x)"
-      ]
+      "timestamp": "2026-01-31T00:58:59.169Z"
     },
     {
       "type": "NEW_BUY",
@@ -73,10 +87,7 @@
     {
       "type": "SAFETY_REJECT",
       "symbol": "MOLT",
-      "timestamp": "2026-01-31T14:48:23.412Z",
-      "reasons": [
-        "HIGH_SELL_RATIO(2.57x>1.5x)"
-      ]
+      "timestamp": "2026-01-31T14:48:23.412Z"
     },
     {
       "type": "NEW_BUY",
@@ -88,18 +99,12 @@
     {
       "type": "SAFETY_REJECT",
       "symbol": "CLAWNCH",
-      "timestamp": "2026-01-31T16:48:24.098Z",
-      "reasons": [
-        "LOW_HOLDERS(4859<5000)"
-      ]
+      "timestamp": "2026-01-31T16:48:24.098Z"
     },
     {
       "type": "SAFETY_REJECT",
       "symbol": "KTA",
-      "timestamp": "2026-01-31T17:18:34.456Z",
-      "reasons": [
-        "LOW_LP_HOLDERS(4<5)"
-      ]
+      "timestamp": "2026-01-31T17:18:34.456Z"
     },
     {
       "type": "STOP_LOSS",
@@ -129,13 +134,23 @@
     {
       "type": "SAFETY_REJECT",
       "symbol": "VIRTUAL",
-      "timestamp": "2026-01-31T20:57:15.417Z",
-      "reasons": [
-        "MINTABLE"
-      ]
+      "timestamp": "2026-01-31T20:57:15.417Z"
+    },
+    {
+      "type": "NEW_BUY",
+      "symbol": "REPPO",
+      "timestamp": "2026-01-31T21:32:16.780Z",
+      "strategy": "C",
+      "reason": "V/L 1.0x, Liq $591K, ATR 51.7%, Conv 1.0x, Whale +0"
+    },
+    {
+      "type": "TAKE_PROFIT_PARTIAL",
+      "symbol": "CLANKER",
+      "timestamp": "2026-01-31T22:01:43.644Z",
+      "pnlPct": 20.37
     }
   ],
-  "count": 20,
-  "updated": "2026-01-31T21:25:56.160Z",
+  "count": 25,
+  "updated": "2026-01-31T22:24:37.697Z",
   "delay": "1hr (free tier)"
 }
