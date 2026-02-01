@@ -9,13 +9,15 @@
       "type": "STOP_LOSS",
       "symbol": "DRB",
       "timestamp": "2026-01-31T14:35:51.896Z",
-      "pnlPct": -10.37
+      "pnlPct": -10.37,
+      "price": 0.00008789
     },
     {
       "type": "STOP_LOSS",
       "symbol": "DRB",
       "timestamp": "2026-01-31T14:36:21.861Z",
-      "pnlPct": -10.37
+      "pnlPct": -10.37,
+      "price": 0.00008789
     },
     {
       "type": "SELL_IMPOSSIBLE",
@@ -58,7 +60,8 @@
       "type": "STOP_LOSS",
       "symbol": "BNKR",
       "timestamp": "2026-01-31T17:30:02.629Z",
-      "pnlPct": -16.76
+      "pnlPct": -16.76,
+      "price": 0.0004844
     },
     {
       "type": "SELL_IMPOSSIBLE",
@@ -69,7 +72,8 @@
       "type": "STOP_LOSS",
       "symbol": "BNKR",
       "timestamp": "2026-01-31T17:30:32.548Z",
-      "pnlPct": -16.76
+      "pnlPct": -16.76,
+      "price": 0.0004844
     },
     {
       "type": "SELL_IMPOSSIBLE",
@@ -80,7 +84,8 @@
       "type": "STOP_LOSS",
       "symbol": "BNKR",
       "timestamp": "2026-01-31T17:31:02.540Z",
-      "pnlPct": -16.52
+      "pnlPct": -16.52,
+      "price": 0.0004858
     },
     {
       "type": "SELL_IMPOSSIBLE",
@@ -114,7 +119,8 @@
       "type": "TAKE_PROFIT_PARTIAL",
       "symbol": "CLANKER",
       "timestamp": "2026-01-31T22:01:43.644Z",
-      "pnlPct": 20.37
+      "pnlPct": 20.37,
+      "price": 42.91
     },
     {
       "type": "TIME_STOP",
@@ -139,9 +145,37 @@
       "symbol": "ELSA",
       "timestamp": "2026-01-31T22:45:13.387Z",
       "pnlPct": 5.72
+    },
+    {
+      "type": "HOLDER_EXIT_WARN",
+      "symbol": "CLANKER",
+      "timestamp": "2026-01-31T23:21:15.785Z"
+    },
+    {
+      "type": "HOLDER_EXIT_WARN",
+      "symbol": "CLANKER",
+      "timestamp": "2026-01-31T23:43:15.344Z"
+    },
+    {
+      "type": "HOLDER_EXIT_WARN",
+      "symbol": "CLANKER",
+      "timestamp": "2026-01-31T23:48:45.463Z"
+    },
+    {
+      "type": "HOLDER_EXIT_WARN",
+      "symbol": "CLANKER",
+      "timestamp": "2026-01-31T23:54:15.782Z"
+    },
+    {
+      "type": "TAKE_PROFIT_FULL",
+      "symbol": "CLANKER",
+      "timestamp": "2026-01-31T23:54:15.805Z",
+      "pnlPct": 51.67,
+      "price": 54.071
     }
   ],
-  "count": 25,
-  "updated": "2026-01-31T23:25:43.666Z",
-  "delay": "1hr (free tier)"
+  "count": 30,
+  "updated": "2026-02-01T00:24:56.667Z",
+  "delay": "1hr (free tier)",
+  "headline": "CLANKER full TP +51.7%"
 }
