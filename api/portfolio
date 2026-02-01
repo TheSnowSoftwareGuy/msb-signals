@@ -1,15 +1,22 @@
 {
   "portfolio": {
-    "value": 305.92,
-    "pnlPct": -28.9,
-    "cash": 273.98,
+    "value": 306.45,
+    "pnlPct": -28.7,
+    "cash": 249.29,
     "positions": [
       {
         "symbol": "REPPO",
-        "pnlPct": 7.5,
-        "holdHours": "3.9"
+        "pnlPct": 9.5,
+        "holdHours": "4.9",
+        "strategy": "C"
+      },
+      {
+        "symbol": "CLANKER",
+        "pnlPct": 1.2,
+        "holdHours": "0.2",
+        "strategy": "A"
       }
     ]
   },
-  "updated": "2026-02-01T01:25:15.883Z"
+  "updated": "2026-02-01T02:25:20.550Z"
 }

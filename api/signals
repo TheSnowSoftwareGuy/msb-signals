@@ -1,11 +1,6 @@
 {
   "signals": [
     {
-      "type": "NEW_BUY",
-      "symbol": "DRB",
-      "timestamp": "2026-01-31T01:29:00.395Z"
-    },
-    {
       "type": "TAKE_PROFIT_PARTIAL",
       "symbol": "DRB",
       "timestamp": "2026-01-31T04:15:28.542Z",
@@ -176,9 +171,13 @@
       "type": "SAFETY_REJECT",
       "symbol": "CLAWD",
       "timestamp": "2026-02-01T00:57:15.624Z"
+    },
+    {
+      "type": "NEW_BUY",
+      "symbol": "CLANKER",
+      "timestamp": "2026-02-01T02:12:16.311Z"
     }
   ],
   "count": 30,
-  "updated": "2026-02-01T01:25:15.881Z",
-  "delay": "1hr (free tier)"
+  "updated": "2026-02-01T02:25:20.548Z"
 }
