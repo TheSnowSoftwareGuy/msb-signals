@@ -1,9 +1,54 @@
 {
   "signals": [
     {
-      "type": "SELL_IMPOSSIBLE",
+      "type": "NEW_BUY",
       "symbol": "DRB",
-      "timestamp": "2026-01-31T14:35:38.691Z"
+      "timestamp": "2026-01-31T01:29:00.395Z"
+    },
+    {
+      "type": "TAKE_PROFIT_PARTIAL",
+      "symbol": "DRB",
+      "timestamp": "2026-01-31T04:15:28.542Z",
+      "pnlPct": 23.7,
+      "price": 0.0001213
+    },
+    {
+      "type": "TRAILING_STOP",
+      "symbol": "BNKR",
+      "timestamp": "2026-01-31T04:52:57.966Z",
+      "pnlPct": 10.78
+    },
+    {
+      "type": "TRAILING_STOP",
+      "symbol": "BNKR",
+      "timestamp": "2026-01-31T04:53:27.954Z",
+      "pnlPct": 10.78
+    },
+    {
+      "type": "TRAILING_STOP",
+      "symbol": "BNKR",
+      "timestamp": "2026-01-31T04:53:58.001Z",
+      "pnlPct": 9.67
+    },
+    {
+      "type": "TRAILING_STOP",
+      "symbol": "BNKR",
+      "timestamp": "2026-01-31T04:54:27.952Z",
+      "pnlPct": 9.67
+    },
+    {
+      "type": "STOP_LOSS",
+      "symbol": "DRB",
+      "timestamp": "2026-01-31T14:34:51.911Z",
+      "pnlPct": -10.52,
+      "price": 0.00008774
+    },
+    {
+      "type": "STOP_LOSS",
+      "symbol": "DRB",
+      "timestamp": "2026-01-31T14:35:21.824Z",
+      "pnlPct": -10.52,
+      "price": 0.00008774
     },
     {
       "type": "STOP_LOSS",
@@ -20,22 +65,6 @@
       "price": 0.00008789
     },
     {
-      "type": "SELL_IMPOSSIBLE",
-      "symbol": "DRB",
-      "timestamp": "2026-01-31T14:36:22.422Z"
-    },
-    {
-      "type": "SELL_IMPOSSIBLE",
-      "symbol": "DRB",
-      "timestamp": "2026-01-31T14:36:37.879Z"
-    },
-    {
-      "type": "SELL_IMPOSSIBLE",
-      "symbol": "DRB",
-      "timestamp": "2026-01-31T14:36:51.868Z",
-      "pnlPct": -10.27
-    },
-    {
       "type": "SAFETY_REJECT",
       "symbol": "MOLT",
       "timestamp": "2026-01-31T14:48:23.412Z"
@@ -43,8 +72,7 @@
     {
       "type": "NEW_BUY",
       "symbol": "BNKR",
-      "timestamp": "2026-01-31T14:53:25.052Z",
-      "strategy": "A"
+      "timestamp": "2026-01-31T14:53:25.052Z"
     },
     {
       "type": "SAFETY_REJECT",
@@ -64,21 +92,11 @@
       "price": 0.0004844
     },
     {
-      "type": "SELL_IMPOSSIBLE",
-      "symbol": "BNKR",
-      "timestamp": "2026-01-31T17:30:19.886Z"
-    },
-    {
       "type": "STOP_LOSS",
       "symbol": "BNKR",
       "timestamp": "2026-01-31T17:30:32.548Z",
       "pnlPct": -16.76,
       "price": 0.0004844
-    },
-    {
-      "type": "SELL_IMPOSSIBLE",
-      "symbol": "BNKR",
-      "timestamp": "2026-01-31T17:30:48.311Z"
     },
     {
       "type": "STOP_LOSS",
@@ -88,21 +106,9 @@
       "price": 0.0004858
     },
     {
-      "type": "SELL_IMPOSSIBLE",
-      "symbol": "BNKR",
-      "timestamp": "2026-01-31T17:31:14.601Z"
-    },
-    {
-      "type": "SELL_IMPOSSIBLE",
-      "symbol": "BNKR",
-      "timestamp": "2026-01-31T17:31:32.607Z",
-      "pnlPct": -16.52
-    },
-    {
       "type": "NEW_BUY",
       "symbol": "CLANKER",
-      "timestamp": "2026-01-31T18:32:16.369Z",
-      "strategy": "C"
+      "timestamp": "2026-01-31T18:32:16.369Z"
     },
     {
       "type": "SAFETY_REJECT",
@@ -112,8 +118,7 @@
     {
       "type": "NEW_BUY",
       "symbol": "REPPO",
-      "timestamp": "2026-01-31T21:32:16.780Z",
-      "strategy": "C"
+      "timestamp": "2026-01-31T21:32:16.780Z"
     },
     {
       "type": "TAKE_PROFIT_PARTIAL",
@@ -138,12 +143,6 @@
       "type": "TIME_STOP",
       "symbol": "ELSA",
       "timestamp": "2026-01-31T22:44:43.420Z",
-      "pnlPct": 5.72
-    },
-    {
-      "type": "SELL_IMPOSSIBLE",
-      "symbol": "ELSA",
-      "timestamp": "2026-01-31T22:45:13.387Z",
       "pnlPct": 5.72
     },
     {
@@ -172,10 +171,14 @@
       "timestamp": "2026-01-31T23:54:15.805Z",
       "pnlPct": 51.67,
       "price": 54.071
+    },
+    {
+      "type": "SAFETY_REJECT",
+      "symbol": "CLAWD",
+      "timestamp": "2026-02-01T00:57:15.624Z"
     }
   ],
   "count": 30,
-  "updated": "2026-02-01T00:24:56.667Z",
-  "delay": "1hr (free tier)",
-  "headline": "CLANKER full TP +51.7%"
+  "updated": "2026-02-01T01:25:15.881Z",
+  "delay": "1hr (free tier)"
 }
